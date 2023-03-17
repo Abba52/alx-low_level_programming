@@ -12,9 +12,9 @@ int main(void)
 	long long int longLongInteger;
 	float floatSize;
 
-	printf("Size of character is: %ld bytes\n", sizeof(characterSize));
-	printf("Size of int is: %ld bytes\n", sizeof(integerSize));
-	printf("Size of long int is: %ld bytes\n", sizeof(longIntegerSize));
-	printf("Size of long long int is: %ld bytes\n", sizeof(longLongInteger));
-	printf("Size of float is: %ld bytes\n", sizeof(floatSize));
+	printf("Size of a char: %ld byte(s)\n", sizeof(characterSize));
+	printf("Size of an int: %ld byte(s)\n", sizeof(integerSize));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(longIntegerSize));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(longLongInteger));
+	printf("Size of a float: %ld byte(s)\n", sizeof(floatSize));
 	return (0); }
